@@ -1,14 +1,11 @@
 # Agent Voice Retell AI
-
 A voice assistant implementation for Retell AI, designed to provide automated customer service for e-commerce stores. This project includes bilingual support (English and Portuguese) with customizable prompts and knowledge bases.
 
 ## Overview
-
 This repository contains prompt templates and knowledge base files for creating intelligent voice assistants powered by Retell AI. The assistant is configured to handle customer inquiries, product information, order tracking, and seamless handoffs to human agents when needed.
 
 ## Project Structure
-
-```
+```bash
 agent-voice-retellai/
 ├── en-prompts/           # English language prompts
 │   ├── universal.md      # Main system prompt and persona
@@ -202,11 +199,3 @@ This implementation is configured for **VAIB**, a handcrafted cosmetics brand, b
 - Appointment scheduling
 - Customer support hotlines
 - Product information lines
-
-## License
-
-This is a template/example project for Retell AI voice assistant implementations.
-
----
-
-**Note**: This project contains prompt templates and knowledge base examples. Actual integration with Retell AI requires proper API setup and configuration through the Retell AI platform.
